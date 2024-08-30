@@ -1,0 +1,20 @@
+dn: ou=users,dc=cogocorp,dc=com
+objectClass: organizationalUnit
+ou: users
+description: Container for user entries
+
+dn: ou=groups,dc=cogocorp,dc=com
+objectClass: organizationalUnit
+ou: groups
+description: Container for group entries
+
+dn: cn=admin,ou=groups,dc=cogocorp,dc=com
+objectClass: groupOfNames
+cn: admin
+member: uid=admin,ou=users,dc=cogocorp,dc=com
+
+dn: uid=admin,ou=users,dc=cogocorp,dc=com
+objectClass: inetOrgPerson
+uid: admin
+cn: Admin User
+sn: User

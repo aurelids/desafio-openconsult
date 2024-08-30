@@ -44,6 +44,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Novell.Directory.Ldap.NETStandard": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.DirectoryServices.Protocols": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Xml.Linq": {
+              "target": "Package",
+              "version": "[3.5.21022.801, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

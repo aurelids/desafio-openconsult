@@ -1,0 +1,7 @@
+dn: cn={4}customSchema,cn=schema,cn=config
+objectClass: olcSchemaConfig
+cn: {4}customSchema
+
+dn: cn={5}CustomSchema,cn=schema,cn=config
+objectClass: olcSchemaConfig
+cn: {5}CustomSchema
